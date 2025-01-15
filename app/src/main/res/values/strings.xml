@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">final</string>
+    <string name="col1">Meeting Room</string>
+    <string name="col2">Lab</string>
+    <string name="col3">surname</string>
+
 </resources>
