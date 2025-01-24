@@ -13,8 +13,8 @@
         android:id="@+id/textView6"
         android:layout_width="366dp"
         android:layout_height="38dp"
-        tools:ignore="MissingConstraints"
         android:text="Thurday March 20th       A-day       2nd Period English"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="3dp" />
 

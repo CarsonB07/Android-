@@ -1,7 +1,10 @@
 package com.example.afinal;
 
+import android.content.Intent;
+import android.view.View;
 import android.os.Bundle;
-
+import android.widget.Button;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+Button button = findViewById(R.id.goactivity2);
+button.setOnClickListener(new View.OnClickListener(){
+    @Override
+    public void onClick(View v){
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(intent);
     }
+});
 }
+        }
+
