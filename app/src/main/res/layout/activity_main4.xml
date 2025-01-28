@@ -6,14 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="366dp"
         android:layout_height="38dp"
-        tools:ignore="MissingConstraints"
         android:text="Thurday March 20th       A-day       4th Period English"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="3dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
 
     <TableRow
         android:id="@+id/tableRow"
@@ -50,122 +55,130 @@
     </TableRow>
 
     <TableRow
+        android:id="@+id/tableRow3"
         android:layout_width="2dp"
         android:layout_height="657dp"
         android:background="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="95dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
         android:text="Ammons, Elesiya"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="96dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <!-- Name 3 -->
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
         android:text="Bryant, Ja'coby"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="116dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
         android:text="Burks, Wimberly"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
         android:text="Camacho-Galvan, Jason"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="156dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <!-- Name 6 -->
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
         android:text="Connor, Aubrey"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="176dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
         android:text="Elvira, Adrian"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="196" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
         android:text="Garcia, Aod"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="216dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <!-- Name 9 -->
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
         android:text="Gradney, Jasmine"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="236dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
         android:text="Ledbetter, Trustin"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="256dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
         android:text="Lewis, Nefertari"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="276" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <!-- Name 12 -->
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
         android:text="Lilly, Devin"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="296" />
-
-
-
-
+        tools:layout_editor_absoluteX="2dp" />
 
 
     <!-- Name 21 -->
@@ -174,100 +187,125 @@
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
         android:text="Martinez, Hayden"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="96dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
         android:text="Moore, Malaki"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
         android:text="Nava, Alexander"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
         android:text="Ortega, Ileyana"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="156dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
         android:text="Pedraza, Cindy"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="176dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
         android:text="Sierra, Carlos"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="196dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
         android:text="Silva, Julian"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
         android:text="Solis, Cecilia"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="236dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
         android:text="Contreras, Diego"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
         android:text="Estrada, Daniel"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
         android:text="Nieves, Stephanie"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintStart_toEndOf="@+id/tableRow3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/goactivity5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

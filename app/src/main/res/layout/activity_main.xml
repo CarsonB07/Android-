@@ -17,8 +17,9 @@
         android:layout_marginBottom="690dp"
         android:text="Thurday March 20th       A-day       1st Period English"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TableRow
         android:id="@+id/tableRow"
@@ -228,12 +229,10 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="207dp"
         android:layout_marginBottom="576dp"
         android:text="Jamal, Ethan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tableRow4"
-        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -341,7 +340,7 @@
         android:id="@+id/goactivity2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To activity 2 "
+        android:text="Next period "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
