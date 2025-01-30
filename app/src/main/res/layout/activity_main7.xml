@@ -11,8 +11,8 @@
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="413dp"
-        android:layout_height="52dp"
+        android:layout_width="1276dp"
+        android:layout_height="41dp"
         android:background="@color/colorGreen"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-2dp"
@@ -48,12 +48,9 @@
         android:layout_width="2dp"
         android:layout_height="657dp"
         android:background="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tableRow"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
         tools:ignore="MissingConstraints">
 
     </TableRow>
@@ -408,18 +405,19 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="366dp"
         android:layout_height="38dp"
-        android:layout_marginTop="650dp"
         android:text="Friday March 21th       B-day       7th Period English"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tableRow"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/goactivity8"
@@ -429,6 +427,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/goback5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91"

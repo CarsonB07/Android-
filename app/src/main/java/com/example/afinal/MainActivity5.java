@@ -27,7 +27,16 @@ public class MainActivity5 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity5.this, MainActivity6.class);
+                Intent intent = new Intent(MainActivity5.this, MainActivity7.class);
+                startActivity(intent);
+            }
+        });
+
+        button = findViewById(R.id.goback4);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity5.this, MainActivity4.class);
                 startActivity(intent);
             }
         });

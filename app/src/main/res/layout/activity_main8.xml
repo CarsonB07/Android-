@@ -12,14 +12,18 @@
         android:layout_width="366dp"
         android:layout_height="38dp"
         android:text="Friday March 21th       B-day       8th Period English"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="3dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774"
+        tools:ignore="MissingConstraints" />
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="413dp"
-        android:layout_height="52dp"
+        android:layout_width="1280dp"
+        android:layout_height="49dp"
         android:background="@color/colorGreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +62,7 @@
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -465,5 +469,18 @@
         app:layout_constraintVertical_bias="0.91"
         tools:ignore="MissingConstraints" />
 
+
+    <Button
+        android:id="@+id/gobackk7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last Period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

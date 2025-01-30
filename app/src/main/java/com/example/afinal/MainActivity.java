@@ -27,10 +27,20 @@ Button button = findViewById(R.id.goactivity2);
 button.setOnClickListener(new View.OnClickListener(){
     @Override
     public void onClick(View v){
-        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        Intent intent = new Intent(MainActivity.this, MainActivity3.class);
         startActivity(intent);
     }
 });
+
+
+        button = findViewById(R.id.goactivity10);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, MainActivity8.class);
+                startActivity(intent);
+            }
+        });
 }
         }
 

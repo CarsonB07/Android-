@@ -7,23 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="366dp"
-        android:layout_height="38dp"
-        android:text="Thurday March 20th       A-day       4th Period English"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        tools:ignore="MissingConstraints" />
-
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="413dp"
-        android:layout_height="52dp"
+        android:layout_width="1282dp"
+        android:layout_height="40dp"
         android:background="@color/colorGreen"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-2dp"
@@ -54,16 +41,19 @@
 
     </TableRow>
 
+
     <TableRow
         android:id="@+id/tableRow3"
         android:layout_width="2dp"
         android:layout_height="657dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" >
 
+    </TableRow>
 
     <TextView
         android:id="@+id/textView4"
@@ -170,6 +160,10 @@
         tools:layout_editor_absoluteX="2dp" />
 
     <!-- Name 12 -->
+
+
+    <!-- Name 21 -->
+
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
@@ -180,15 +174,14 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="2dp" />
 
-
-    <!-- Name 21 -->
-
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="92dp"
         android:text="Martinez, Hayden"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tableRow3"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -304,8 +297,32 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintVertical_bias="0.992"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/goback33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="366dp"
+        android:layout_height="38dp"
+        android:text="Thurday March 20th       A-day       4th Period English"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

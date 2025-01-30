@@ -22,8 +22,8 @@
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="413dp"
-        android:layout_height="52dp"
+        android:layout_width="1272dp"
+        android:layout_height="51dp"
         android:background="@color/colorGreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -403,6 +403,19 @@
         app:layout_constraintVertical_bias="0.976"
         tools:ignore="MissingConstraints" />
 
+
+    <Button
+        android:id="@+id/goback4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,16 +14,16 @@
         android:text="Thurday March 20th       A-day       3rd Period English"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.007"
+        app:layout_constraintVertical_bias="0.759"
         tools:ignore="MissingConstraints" />
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="413dp"
-        android:layout_height="52dp"
+        android:layout_width="1275dp"
+        android:layout_height="47dp"
         android:background="@color/colorGreen"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-2dp"
@@ -59,9 +59,10 @@
         android:layout_width="2dp"
         android:layout_height="657dp"
         android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
     <!-- Name 1 -->
     <TextView
@@ -373,5 +374,17 @@
         app:layout_constraintVertical_bias="0.976"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/goback111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last period"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

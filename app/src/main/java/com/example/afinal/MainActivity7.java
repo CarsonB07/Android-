@@ -31,5 +31,14 @@ public class MainActivity7 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        button = findViewById(R.id.goback5);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity7.this, MainActivity5.class);
+                startActivity(intent);
+            }
+        });
     }
 }

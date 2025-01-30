@@ -31,6 +31,13 @@ public class MainActivity8 extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity8.this, MainActivity.class);
                 startActivity(intent);
             }
+
         });
-    }
-}
+        button = findViewById(R.id.gobackk7);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity8.this, MainActivity7.class);
+                startActivity(intent);
+            }
+        });}}
