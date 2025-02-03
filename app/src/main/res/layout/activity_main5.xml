@@ -14,10 +14,10 @@
         android:text="Friday March 21th       B-day       5th Period English"
         app:layout_constraintBottom_toBottomOf="@+id/tableRow5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.777"
         tools:ignore="MissingConstraints" />
 
     <TableRow
