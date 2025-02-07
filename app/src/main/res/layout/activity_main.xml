@@ -71,19 +71,6 @@
 
     <!-- Name 3 "Barroso, Anthony"-->
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="166dp"
-        android:layout_marginBottom="615dp"
-        android:text="Barroso, Anthony"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tableRow"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -325,37 +312,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="436dp"
         android:text="Richey, Remy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tableRow4"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="416dp"
-        android:text="Scott, Jaxon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tableRow4"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="396dp"
-        android:text="Trent, Vernell"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tableRow4"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="376dp"
-        android:inputType="text"
-        android:text="Walker, Isaiah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tableRow4"
         tools:ignore="MissingConstraints" />

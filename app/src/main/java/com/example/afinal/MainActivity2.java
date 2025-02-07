@@ -23,14 +23,22 @@ public class MainActivity2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-Button button = findViewById(R.id.goactivity3);
-button.setOnClickListener(new View.OnClickListener(){
-    @Override
-    public void onClick(View v){
-        Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
-        startActivity(intent);
-    }
-});
-    }
-}
+
+        Button button = findViewById(R.id.goactivity3);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+                startActivity(intent);
+            }
+
+        });
+        button = findViewById(R.id.gobackk1);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });}}
 

@@ -181,28 +181,7 @@
         tools:layout_editor_absoluteX="2dp" />
     <!-- Name half -->
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="316dp"
-        android:text="Hudson, Leilah"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp" />
 
-
-    <!-- Name 21 -->
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="336dp"
-        android:text="James, Morgan"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/textView41"
@@ -333,31 +312,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.00"
         app:layout_constraintStart_toEndOf="@+id/tableRow2"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="317dp"
-        android:text="Vasan, Kieran"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.00"
-        app:layout_constraintStart_toEndOf="@+id/tableRow2"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="336dp"
-        android:text="Vazquez, Cam'ryn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.00"
-        app:layout_constraintStart_toStartOf="@+id/tableRow2"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
