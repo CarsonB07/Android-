@@ -14,13 +14,13 @@
         android:id="@+id/textView6"
         android:layout_width="432dp"
         android:layout_height="32dp"
-        android:text="Thurday March 20th       A-day       1st Period English"
+        android:text="Thurday March 20th       A-day                  1st Period English"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757"
+        app:layout_constraintVertical_bias="0.74"
         tools:ignore="MissingConstraints" />
 
     <TableRow
@@ -69,17 +69,20 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <!-- Name 3 -->
+    <!-- Name 3 "Barroso, Anthony"-->
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="117dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="615dp"
         android:text="Barroso, Anthony"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tableRow"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -371,14 +374,11 @@
         android:id="@+id/goactivity10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="last period "
+        android:layout_marginEnd="1160dp"
+        android:text="Last period "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
         tools:ignore="MissingConstraints" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

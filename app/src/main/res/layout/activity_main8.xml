@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="366dp"
-        android:layout_height="38dp"
-        android:text="Friday March 21th       B-day       8th Period English"
+        android:layout_width="409dp"
+        android:layout_height="37dp"
+        android:text="Friday March 21th       B-day                  8th Period English"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -473,13 +473,11 @@
         android:id="@+id/gobackk7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="last Period"
+        android:layout_marginEnd="1160dp"
+        android:text="Last period "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

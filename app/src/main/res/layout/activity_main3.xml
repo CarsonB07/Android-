@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="366dp"
+        android:layout_width="531dp"
         android:layout_height="38dp"
-        android:text="Thurday March 20th       A-day       3rd Period English"
+        android:text="Thurday March 20th       A-day                  3rd Period English"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"
+        app:layout_constraintVertical_bias="0.769"
         tools:ignore="MissingConstraints" />
 
     <TableRow
@@ -378,13 +378,11 @@
         android:id="@+id/goback111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Last period"
+        android:layout_marginEnd="1160dp"
+        android:text="Last period "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
